@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dezon.arturo.thing2ting.ub2">
+
+    <!-- Login progress -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="copy" />
+
+        <EditText
+            android:id="@+id/tt1"
+            android:layout_width="163dp"
+            android:layout_height="51dp" />
+
+        <Button
+            android:id="@+id/bb4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="share" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bb1"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:text="search" />
+
+        <Button
+            android:id="@+id/bb2"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:text="other" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tt2"
+        android:layout_width="match_parent"
+        android:layout_height="419dp"
+        android:contentDescription="urban def will appear here" />
+
+
+</LinearLayout>
